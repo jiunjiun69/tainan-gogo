@@ -56,7 +56,7 @@
                 <li>交通彈性最高</li>
                 <li>雨天也比較好改</li>
               </ul>
-              <button class="select-button" type="button">先選 A</button>
+              <button class="select-button" type="button" aria-pressed="false">看 A 時程</button>
             </article>
 
             <article class="option-card" data-option="B">
@@ -71,7 +71,7 @@
                 <li>6 月白天會熱</li>
                 <li>比較有出遊感</li>
               </ul>
-              <button class="select-button" type="button">先選 B</button>
+              <button class="select-button" type="button" aria-pressed="false">看 B 時程</button>
             </article>
 
             <article class="option-card" data-option="C">
@@ -86,21 +86,29 @@
                 <li>不太進市區</li>
                 <li>集合壓力最低</li>
               </ul>
-              <button class="select-button" type="button">先選 C</button>
+              <button class="select-button" type="button" aria-pressed="false">看 C 時程</button>
             </article>
           </div>
-          <p class="selected-note" id="selectedNote">目前建議：A 市區穩健版。</p>
+          <p class="selected-note" id="selectedNote" aria-live="polite">目前顯示：全部時程草案。可以先看完三版，再點 A/B/C 收斂方向。</p>
         </div>
       </section>
 
       <section id="schedule" class="band alt">
         <div class="wrap">
           <div class="section-head">
-            <p class="section-kicker">行程草案</p>
-            <h2>三套時程草案</h2>
+            <div>
+              <p class="section-kicker">行程草案</p>
+              <h2>三套時程草案</h2>
+            </div>
+            <div class="schedule-controls" role="group" aria-label="時程顯示切換">
+              <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">全顯示</button>
+              <button class="filter-button" type="button" data-filter="A" aria-pressed="false">A</button>
+              <button class="filter-button" type="button" data-filter="B" aria-pressed="false">B</button>
+              <button class="filter-button" type="button" data-filter="C" aria-pressed="false">C</button>
+            </div>
           </div>
           <div class="route-grid">
-            <article class="route-card">
+            <article class="route-card" data-route="A">
               <div class="route-head">
                 <span class="option-mark">A</span>
                 <div>
@@ -119,7 +127,7 @@
               <p class="route-note">關鍵：先訂晚餐。如果午餐已經吃生魚片，晚餐可改台菜、小吃或打茶趣，避免餐飲類型重複。</p>
             </article>
 
-            <article class="route-card">
+            <article class="route-card" data-route="B">
               <div class="route-head">
                 <span class="option-mark">B</span>
                 <div>
@@ -138,7 +146,7 @@
               <p class="route-note">關鍵：這版需要車或包車。若當天太熱或下雨，建議直接切回 A 或 C。</p>
             </article>
 
-            <article class="route-card">
+            <article class="route-card" data-route="C">
               <div class="route-head">
                 <span class="option-mark">C</span>
                 <div>

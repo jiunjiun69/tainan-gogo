@@ -275,6 +275,33 @@ h2 {
   font-weight: 800;
 }
 
+.schedule-controls {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.filter-button {
+  min-width: 42px;
+  min-height: 38px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.filter-button:hover,
+.filter-button.is-active {
+  background: var(--ink);
+  color: var(--white);
+}
+
 .route-grid {
   display: grid;
   gap: 18px;
@@ -438,6 +465,15 @@ h2 {
     display: block;
   }
 
+  .schedule-controls {
+    width: 100%;
+    margin-top: 18px;
+  }
+
+  .filter-button {
+    flex: 1;
+  }
+
   .route-card {
     padding: 18px;
   }
@@ -456,4 +492,3 @@ h2 {
     display: grid;
   }
 }
-
