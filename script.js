@@ -32,7 +32,7 @@ function setRouteFilter(filter, shouldScroll = false) {
   });
 
   note.textContent = isAll
-    ? "目前顯示：全部時程草案。可以先看完三版，再點 A/B/C 收斂方向。"
+    ? "目前顯示：全部時程草案。可以先看 A/C 主案，B 當海線備案。"
     : `目前顯示：${optionLabels[filter]} 時程。`;
 
   if (shouldScroll) {

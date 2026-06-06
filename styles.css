@@ -349,6 +349,33 @@ h2 {
   font-weight: 700;
 }
 
+.meal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.meal-card {
+  min-width: 0;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.meal-card h3 {
+  margin: 12px 0 10px;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.meal-card ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
 .pool-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -366,6 +393,12 @@ h2 {
   font-weight: 800;
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
+}
+
+.link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .meta {
@@ -422,7 +455,8 @@ h2 {
 
 @media (max-width: 900px) {
   .summary-grid,
-  .option-grid {
+  .option-grid,
+  .meal-grid {
     grid-template-columns: 1fr;
   }
 
