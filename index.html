@@ -4,44 +4,86 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>6/20 台南 GO</title>
-    <meta name="description" content="2026-06-20 台南一日遊 A/B/C 行程方案、吃喝候選與景點備案。">
+    <meta name="description" content="2026-06-20 台南一日遊行程頁，整理 A/B/C 路線、吃喝、戶外景點與出發前確認事項。">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="topbar">
+    <header class="topbar" aria-label="頁面導覽">
       <a href="#plans">方案</a>
       <a href="#schedule">時程</a>
       <a href="#food">吃喝</a>
+      <a href="#outdoor">戶外</a>
       <a href="#spots">景點</a>
       <a href="#checklist">確認</a>
     </header>
 
     <main>
       <section class="hero">
-        <img src="assets/tainan-0620-hero.png" alt="台南行程氛圍圖" class="hero-image">
+        <img src="assets/tainan-0620-hero.png" alt="台南街區與旅行氛圍圖" class="hero-image">
         <div class="hero-shade"></div>
         <div class="hero-content">
           <p class="eyebrow">2026-06-20 Sat. / 端午連假中間</p>
           <h1>6/20 台南 GO</h1>
-          <p class="hero-copy">目前先以 A/C 二選一收斂；A 市區穩健版最有機會，C 高鐵周邊保留省心備案。</p>
+          <p class="hero-copy">主案先用市區穩健版，把延平郡王祠、孔廟街區、下午茶、海鮮晚餐串成舒服的一天；太熱或下雨就切室內備案。</p>
+          <div class="hero-actions" aria-label="快速跳轉">
+            <a class="primary-link" href="#outdoor">看戶外推薦</a>
+            <a class="ghost-link" href="#schedule">比較三套時程</a>
+          </div>
+          <div class="hero-stats" aria-label="行程重點">
+            <div>
+              <strong>A</strong>
+              <span>市區穩健主案</span>
+            </div>
+            <div>
+              <strong>3-4h</strong>
+              <span>午後戶外上限</span>
+            </div>
+            <div>
+              <strong>6/13</strong>
+              <span>資料更新</span>
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="band summary">
         <div class="wrap summary-grid">
           <div>
-            <p class="section-kicker">首選方向</p>
-            <h2>先用 A/C 收斂方向。</h2>
+            <p class="section-kicker">目前判斷</p>
+            <h2>A 版最順，戶外短段散步。</h2>
           </div>
-          <p>目前比較像在「市區穩健」和「高鐵周邊」之間選，市區版更適合把午餐、晚餐、宵夜和御守散步都接起來；高鐵周邊版則保留給想少移動的情況。</p>
+          <p>6 月台南白天很熱，不建議把戶外排成硬闖型行程。最穩做法是把延平郡王祠當錨點，接孔廟、府中街、大南門或河樂廣場，途中穿插飲料、甜點、室內點位。創意積木夢工場在郡王祠附近，適合當抗熱或下雨備案。</p>
+        </div>
+      </section>
+
+      <section class="band decision-band">
+        <div class="wrap decision-grid">
+          <article class="decision-card primary">
+            <span class="place-type">推薦結論</span>
+            <h2>戶外主線：郡王祠 → 孔廟/府中街 → 大南門/河樂</h2>
+            <p>這條線和既有 A 版吃喝最容易接，不需要車，也不會把大家丟在太曬的景點太久。</p>
+          </article>
+          <article class="decision-card">
+            <span class="place-type">熱或雨</span>
+            <h3>LEGO、林百貨、美術館當緩衝</h3>
+            <p>戶外只要撐不住，馬上切近距離室內點，不讓行程崩掉。</p>
+          </article>
+          <article class="decision-card">
+            <span class="place-type">不建議硬塞</span>
+            <h3>四草、漁光島、安平樹屋</h3>
+            <p>都值得去，但比較像半日支線。除非大家很想跑遠，否則先留備案。</p>
+          </article>
         </div>
       </section>
 
       <section id="plans" class="band">
         <div class="wrap">
           <div class="section-head">
-            <p class="section-kicker">選一個方向</p>
-            <h2>A/B/C 方案</h2>
+            <div>
+              <p class="section-kicker">選一個方向</p>
+              <h2>A/B/C 方案</h2>
+            </div>
+            <p class="section-note">點選卡片可只看該方案時程。</p>
           </div>
           <div class="option-grid">
             <article class="option-card is-recommended" data-option="A">
@@ -50,11 +92,11 @@
                 <span class="badge">目前最可能</span>
               </div>
               <h3>市區穩健版</h3>
-              <p>早餐各自處理，午餐或早午餐進市區，下午接御守和散步，晚餐海鮮，宵夜看牛肉湯、夜市或打茶趣。</p>
+              <p>吃完早餐後，中午進市區，下午用延平郡王祠、孔廟、府中街做短段戶外，晚餐接海鮮，宵夜看體力。</p>
               <ul>
-                <li>餐飲選項最多</li>
-                <li>御守和小吃好接</li>
-                <li>晚餐海鮮最順</li>
+                <li>不用先解決開車問題</li>
+                <li>吃喝、御守、散步最好接</li>
+                <li>太熱可快速切室內點</li>
               </ul>
               <button class="select-button" type="button" aria-pressed="false">看 A 時程</button>
             </article>
@@ -65,11 +107,11 @@
                 <span class="badge">海線備案</span>
               </div>
               <h3>七股海線版</h3>
-              <p>七股鹽山、海產街、鹽田或海線風景，適合有人想真的跑景點。</p>
+              <p>七股鹽山、海產街、鹽田夕陽或四草生態，出遊感最強，但需要車、耐熱和更大的時間緩衝。</p>
               <ul>
-                <li>需要車或包車</li>
-                <li>6 月白天會熱</li>
-                <li>比較有出遊感</li>
+                <li>戶外感最強</li>
+                <li>交通成本最高</li>
+                <li>6 月日曬風險高</li>
               </ul>
               <button class="select-button" type="button" aria-pressed="false">看 B 時程</button>
             </article>
@@ -80,11 +122,11 @@
                 <span class="badge">第二候選</span>
               </div>
               <h3>高鐵周邊版</h3>
-              <p>高鐵台南站、三井、奇美或十鼓、打茶趣，少移動，回程最乾淨；想加台南小吃就把宵夜拉回市區。</p>
+              <p>高鐵台南站、三井、奇美或十鼓、打茶趣，少移動、集合簡單；戶外可用奇美外圍或巴克禮公園補一段。</p>
               <ul>
                 <li>適合晚到早走</li>
-                <li>不太進市區</li>
-                <li>集合壓力最低</li>
+                <li>回程壓力最低</li>
+                <li>市區台南感較少</li>
               </ul>
               <button class="select-button" type="button" aria-pressed="false">看 C 時程</button>
             </article>
@@ -108,23 +150,23 @@
             </div>
           </div>
           <div class="route-grid">
-            <article class="route-card" data-route="A">
+            <article class="route-card featured-route" data-route="A">
               <div class="route-head">
                 <span class="option-mark">A</span>
                 <div>
                   <h3>市區穩健版</h3>
-                  <p>目前最適合當主案，吃喝和景點都能臨場調整。</p>
+                  <p>目前最適合當主案，吃喝和戶外都能臨場調整。</p>
                 </div>
               </div>
               <div class="mini-table">
-                <div><time>早上</time><span>早餐各自處理；若連假人潮較多，可以提早出門再到市區會合</span></div>
-                <div><time>11:30</time><span>午餐/早午餐：法國鬍子、國華街小吃，或先用牛肉湯/鱔魚意麵開場</span></div>
-                <div><time>14:00</time><span>延平郡王祠，順便看御守和附近街區</span></div>
-                <div><time>15:20</time><span>孔廟、府中街、國華街甜點飲料：豆花、冰淇淋、紅茶、黑糖奶</span></div>
-                <div><time>17:40</time><span>晚餐：海鮮、魚湯、熱炒或生魚片；蝦蟹類先不要當唯一主軸</span></div>
-                <div><time>20:00</time><span>宵夜可有可無：牛肉湯、花園/武聖夜市，或打茶趣晚茶收尾</span></div>
+                <div><time>早上</time><span>吃完早餐後出發；連假人潮多，可以提早到市區會合。</span></div>
+                <div><time>11:30</time><span>午餐/早午餐：法國鬍子、牛肉湯、鱔魚意麵或國華街小吃。</span></div>
+                <div><time>14:00</time><span>延平郡王祠：御守、鄭成功文物館、外圍庭院，控制在 45-60 分鐘。</span></div>
+                <div><time>15:10</time><span>孔廟、府中街、大南門三選二；中間插甜點、飲料或 LEGO 備案。</span></div>
+                <div><time>17:40</time><span>晚餐：海鮮、魚湯、熱炒或生魚片；蝦蟹類先不要當唯一主軸。</span></div>
+                <div><time>20:00</time><span>宵夜可有可無：牛肉湯、花園/武聖夜市，或河樂廣場、海安路散步收尾。</span></div>
               </div>
-              <p class="route-note">關鍵：先決定晚餐海鮮的形式，再從午餐和宵夜補台南小吃。這版最適合想吃完整、也想去御守景點的人。</p>
+              <p class="route-note">關鍵：戶外只排短段。只要天氣太熱，就把孔廟/大南門縮短，改進 LEGO、林百貨或美術館補冷氣。</p>
             </article>
 
             <article class="route-card" data-route="B">
@@ -136,14 +178,14 @@
                 </div>
               </div>
               <div class="mini-table">
-                <div><time>10:30</time><span>集合取車/叫車，先確認有人願意跑海線</span></div>
-                <div><time>11:30</time><span>午餐：七股海產街、阿月虱目魚粥、黑琵食堂方向</span></div>
-                <div><time>13:10</time><span>七股鹽山，6/20 剛好落在官方活動期間</span></div>
-                <div><time>15:00</time><span>井仔腳瓦盤鹽田、青鯤鯓扇形鹽田，依天氣二選一</span></div>
-                <div><time>17:30</time><span>回市區晚餐，或直接回高鐵周邊吃飯</span></div>
-                <div><time>20:00</time><span>高鐵回程；還有精神再接打茶趣</span></div>
+                <div><time>10:30</time><span>自駕集合出發，先確認停車、車程與大家是否願意跑海線。</span></div>
+                <div><time>11:30</time><span>午餐：七股海產街、阿月虱目魚粥、黑琵食堂方向。</span></div>
+                <div><time>13:10</time><span>七股鹽山；6/20 落在官方活動期間，可當主景點。</span></div>
+                <div><time>15:00</time><span>井仔腳瓦盤鹽田、青鯤鯓扇形鹽田或四草綠色隧道，依天氣二選一。</span></div>
+                <div><time>17:30</time><span>回市區晚餐，或直接回高鐵周邊吃飯。</span></div>
+                <div><time>20:00</time><span>高鐵回程；還有精神再接打茶趣。</span></div>
               </div>
-              <p class="route-note">關鍵：這版需要車或包車。若當天太熱或下雨，建議直接切回 A 或 C。</p>
+              <p class="route-note">關鍵：這版以自駕為前提。若當天太熱、下雨或有人不想曬，直接切回 A 或 C。</p>
             </article>
 
             <article class="route-card" data-route="C">
@@ -155,12 +197,12 @@
                 </div>
               </div>
               <div class="mini-table">
-                <div><time>早上</time><span>早餐各自處理；不進市區時，集合壓力最低</span></div>
-                <div><time>12:00</time><span>高鐵台南站集合，三井 Outlet 午餐或先喝飲料</span></div>
-                <div><time>13:30</time><span>奇美博物館、十鼓仁糖文創園區，依大家興趣二選一</span></div>
-                <div><time>16:30</time><span>回高鐵/三井周邊休息，補甜點或咖啡</span></div>
-                <div><time>17:30</time><span>打茶趣，吃烤奶、圍爐煮茶，當晚餐或晚茶</span></div>
-                <div><time>20:00</time><span>回高鐵台南站；若還想吃台南味，再加碼市區牛肉湯或夜市</span></div>
+                <div><time>早上</time><span>吃完早餐後出發；不進市區時，集合壓力最低。</span></div>
+                <div><time>12:00</time><span>高鐵台南站集合，三井 Outlet 午餐或先喝飲料。</span></div>
+                <div><time>13:30</time><span>奇美博物館、十鼓仁糖文創園區，依大家興趣二選一。</span></div>
+                <div><time>16:30</time><span>若想補戶外，可插巴克禮公園或奇美外圍短散步；太熱就回三井休息。</span></div>
+                <div><time>17:30</time><span>打茶趣，吃烤奶、圍爐煮茶，當晚餐或晚茶。</span></div>
+                <div><time>20:00</time><span>回高鐵台南站；若還想吃台南味，再加碼市區牛肉湯或夜市。</span></div>
               </div>
               <p class="route-note">關鍵：這版很舒服，但市區小吃和御守感會少很多。適合大家只想輕鬆見面、不要跑太多點。</p>
             </article>
@@ -175,13 +217,14 @@
               <p class="section-kicker">餐飲選項</p>
               <h2>吃喝候選</h2>
             </div>
+            <p class="section-note">先定午餐和晚餐，甜點飲料當戶外緩衝點。</p>
           </div>
           <div class="meal-grid">
             <article class="meal-card">
               <span class="place-type">A 版吃法</span>
               <h3>市區完整吃喝線</h3>
               <ul>
-                <li>早餐各自處理，11:00-12:00 之間集合比較實際。</li>
+                <li>吃完早餐後出發，11:00-12:00 之間集合比較實際。</li>
                 <li>午餐可走法國鬍子、牛肉湯、鱔魚意麵或國華街小吃。</li>
                 <li>晚餐主軸放海鮮、魚湯、熱炒或生魚片，蝦蟹類先確認接受度。</li>
                 <li>宵夜可有可無，牛肉湯、夜市、打茶趣都能當收尾。</li>
@@ -259,72 +302,180 @@
             </article>
 
             <article class="place-card">
-              <span class="place-type">甜點飲料</span>
-              <h3>宣福居 / 東洲黑糖奶舖 / 布萊恩紅茶</h3>
-              <p>國華街、正興街一帶的飲料甜點備案。若大家只是想找地方喘一下，這組比排正餐更彈性。</p>
-              <p class="meta">狀態：先當散步備案，店況與分店營業時間出發前再確認。</p>
-            </article>
-
-            <article class="place-card">
-              <span class="place-type">散步小吃</span>
-              <h3>炸雞洋行</h3>
-              <p>國華街人氣炸雞，適合當下午或宵夜前的小點，不建議取代正式晚餐。</p>
-              <p class="meta">注意：國華攤常見資訊為中午到傍晚，售完與店休要再看公告。</p>
-              <a href="https://www.wtainan.com.tw/web/storeInfo/174" target="_blank" rel="noreferrer">參考</a>
-            </article>
-
-            <article class="place-card">
-              <span class="place-type">週六宵夜</span>
-              <h3>花園夜市 / 武聖夜市</h3>
-              <p>6/20 是週六，夜市可當 A 版晚餐後的彈性宵夜。想吃東山鴨頭、白糖粿、小吃攤時再啟用。</p>
-              <p class="meta">注意：夜市營業日與攤位仍以當日公告為準。</p>
-              <a href="https://twtainan.net/en/attractions/detail/5573" target="_blank" rel="noreferrer">參考</a>
-            </article>
-
-            <article class="place-card">
-              <span class="place-type">午餐</span>
-              <h3>山記魚仔店</h3>
-              <p>府前路魚湯、生魚片方向，離延平郡王祠近，適合 A 版午餐。</p>
-              <p class="meta">注意：營業時間來源不完全一致，出發前要再確認。</p>
-              <a href="https://taiwanfoodie.org/restaurants/shan_ji_fish_shop/" target="_blank" rel="noreferrer">參考</a>
-            </article>
-
-            <article class="place-card">
-              <span class="place-type">晚餐</span>
-              <h3>弘生魚片</h3>
-              <p>中西區金華路，海鮮、熱炒、生魚片。適合 A 版晚餐候選。</p>
-              <p class="meta">Gomaji 列電話：(06)224-5227。</p>
-              <a href="https://www.gomaji.com/store/143024" target="_blank" rel="noreferrer">參考</a>
-            </article>
-
-            <article class="place-card">
-              <span class="place-type">海線午餐</span>
-              <h3>七股海產街</h3>
-              <p>如果走 B 版，可在七股 176 縣道沿線找海鮮、虱目魚、文蛤、鮮蚵。</p>
-              <p class="meta">適合：七股鹽山前後補午餐。</p>
-              <a href="https://www.swcoast-nsa.gov.tw/zh-tw/attraction/details/81" target="_blank" rel="noreferrer">參考</a>
-            </article>
-
-            <article class="place-card">
-              <span class="place-type">海線備案</span>
-              <h3>阿月虱目魚粥 / 黑琵食堂</h3>
-              <p>七股方向的魚粥、鮮蚵、海產備案，不一定要全塞進行程，先當餐廳池。</p>
-              <p class="meta">狀態：需要出發前再查營業與人潮。</p>
-            </article>
-
-            <article class="place-card">
               <span class="place-type">高鐵周邊</span>
               <h3>三井 Outlet 餐廳</h3>
               <p>集合容易、選擇多，適合 C 版午餐或有人晚到時補位。</p>
               <p class="meta">適合：想避開市區排隊時。</p>
               <a href="https://www.mitsui-shopping-park.com.tw/uploads/userfiles/images/tainan/20250428_%E5%8F%B0%E5%8D%97_%E7%BE%8E%E9%A3%9F%E5%B0%8E%E8%A6%BD%E7%B0%A1%E4%BB%8Bedm.pdf" target="_blank" rel="noreferrer">參考</a>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="outdoor" class="band outdoor-band">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">戶外整理</p>
+              <h2>戶外點位推薦排序</h2>
+            </div>
+            <p class="section-note">以 6 月午後、無車也能跑、能接吃喝為主要評分標準。</p>
+          </div>
+
+          <div class="outdoor-summary">
+            <article>
+              <span class="rank">01</span>
+              <h3>最推薦：郡王祠周邊短散步</h3>
+              <p>延平郡王祠、孔廟、府中街、大南門串成 2-3 小時，途中隨時補飲料或進室內。</p>
+            </article>
+            <article>
+              <span class="rank">02</span>
+              <h3>晚上加碼：河樂廣場/海安路</h3>
+              <p>晚餐後再散步最舒服，白天不建議把它當曝曬主景點。</p>
+            </article>
+            <article>
+              <span class="rank">03</span>
+              <h3>遠一點：安平、漁光島、四草</h3>
+              <p>戶外感更強，但會吃掉交通時間。除非大家明確想跑遠，先不要當 A 版主軸。</p>
+            </article>
+          </div>
+
+          <div class="timeline-card">
+            <div class="timeline-head">
+              <span class="place-type">A 版午後建議</span>
+              <h3>14:00-17:20 戶外不爆汗版本</h3>
+            </div>
+            <div class="time-lane">
+              <div><time>14:00</time><span>延平郡王祠</span></div>
+              <div><time>15:05</time><span>孔廟/府中街</span></div>
+              <div><time>16:00</time><span>大南門或飲料甜點</span></div>
+              <div><time>16:45</time><span>LEGO / 林百貨 / 美術館備案</span></div>
+              <div><time>17:40</time><span>晚餐</span></div>
+            </div>
+          </div>
+
+          <div class="place-grid detailed-grid">
+            <article class="place-card highlight">
+              <span class="place-type">主錨點</span>
+              <h3>延平郡王祠</h3>
+              <p>市區戶外主錨點。建築、庭院、鄭成功文物館、御守都能一起看，時間可控。</p>
+              <dl class="fact-list">
+                <div><dt>建議停留</dt><dd>45-60 分鐘</dd></div>
+                <div><dt>接法</dt><dd>午餐後第一站</dd></div>
+                <div><dt>風險</dt><dd>午後熱，別排太久</dd></div>
+              </dl>
+              <div class="link-row">
+                <a href="https://www.twtainan.net/zh-tw/attractions/detail/792/" target="_blank" rel="noreferrer">官方資料</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=%E5%BB%B6%E5%B9%B3%E9%83%A1%E7%8E%8B%E7%A5%A0" target="_blank" rel="noreferrer">地圖</a>
+              </div>
+            </article>
+
+            <article class="place-card highlight">
+              <span class="place-type">最佳下一站</span>
+              <h3>孔廟文化園區 / 府中街</h3>
+              <p>離郡王祠近，台南感很強，可以散步、拍照、買小東西，也能穿插冰品與飲料。</p>
+              <dl class="fact-list">
+                <div><dt>建議停留</dt><dd>50-80 分鐘</dd></div>
+                <div><dt>接法</dt><dd>郡王祠後步行或短程車</dd></div>
+                <div><dt>風險</dt><dd>樹蔭有限，需補水</dd></div>
+              </dl>
+              <a href="https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8D%97%E5%AD%94%E5%BB%9F%20%E5%BA%9C%E4%B8%AD%E8%A1%97" target="_blank" rel="noreferrer">地圖</a>
+            </article>
 
             <article class="place-card">
-              <span class="place-type">下午散步</span>
-              <h3>孔廟 / 府中街咖啡甜點</h3>
-              <p>A 版下午很適合用這區當休息點，留一段咖啡、甜點或飲料時間。</p>
-              <p class="meta">狀態：可現場看，也可先挑 1-2 家備案。</p>
+              <span class="place-type">歷史散步</span>
+              <h3>大南門 / 碑林 / 臺南放送局</h3>
+              <p>比純逛街更有戶外感，適合想多看一個歷史點。建議只挑其中一段，不要拉太長。</p>
+              <dl class="fact-list">
+                <div><dt>建議停留</dt><dd>30-50 分鐘</dd></div>
+                <div><dt>接法</dt><dd>孔廟後順路</dd></div>
+                <div><dt>風險</dt><dd>白天熱，傍晚較好</dd></div>
+              </dl>
+              <a href="https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8D%97%E5%A4%A7%E5%8D%97%E9%96%80%20%E7%A2%91%E6%9E%97" target="_blank" rel="noreferrer">地圖</a>
+            </article>
+
+            <article class="place-card">
+              <span class="place-type">近郡王祠 / 抗熱備案</span>
+              <h3>創意積木夢工場｜LEGO 樂高</h3>
+              <p>位在樹林街二段 268 號，靠近郡王祠。這裡不是戶外景點，但很適合當熱到不想走或下雨時的附近備案。</p>
+              <dl class="fact-list">
+                <div><dt>建議停留</dt><dd>30-60 分鐘</dd></div>
+                <div><dt>接法</dt><dd>郡王祠後備用</dd></div>
+                <div><dt>風險</dt><dd>營業狀態出發前再看</dd></div>
+              </dl>
+              <a href="https://maps.app.goo.gl/Eea9MqTG9Wi6UY3W6" target="_blank" rel="noreferrer">地圖參考</a>
+            </article>
+
+            <article class="place-card">
+              <span class="place-type">晚餐後散步</span>
+              <h3>河樂廣場 / 海安路</h3>
+              <p>適合晚餐後散步拍照，晚上比下午舒服。若晚餐在中西區，這段很好接。</p>
+              <dl class="fact-list">
+                <div><dt>建議停留</dt><dd>30-60 分鐘</dd></div>
+                <div><dt>接法</dt><dd>晚餐後或宵夜前</dd></div>
+                <div><dt>風險</dt><dd>白天不優先</dd></div>
+              </dl>
+              <a href="https://www.google.com/maps/search/?api=1&query=%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%20%E6%B5%B7%E5%AE%89%E8%B7%AF" target="_blank" rel="noreferrer">地圖</a>
+            </article>
+
+            <article class="place-card">
+              <span class="place-type">拍照備案</span>
+              <h3>藍晒圖文創園區</h3>
+              <p>離市區餐飲不遠，適合傍晚或晚上拍照。白天可以去，但不如放在較涼時段。</p>
+              <dl class="fact-list">
+                <div><dt>建議停留</dt><dd>30-45 分鐘</dd></div>
+                <div><dt>接法</dt><dd>晚餐前後</dd></div>
+                <div><dt>風險</dt><dd>店家營業各自不同</dd></div>
+              </dl>
+              <a href="https://www.google.com/maps/search/?api=1&query=%E8%97%8D%E6%99%92%E5%9C%96%E6%96%87%E5%89%B5%E5%9C%92%E5%8D%80" target="_blank" rel="noreferrer">地圖</a>
+            </article>
+
+            <article class="place-card">
+              <span class="place-type">C 版戶外</span>
+              <h3>巴克禮紀念公園</h3>
+              <p>樹蔭、湖景、散步感都有，靠近文化中心。比較適合 C 版或高鐵周邊回程前補一段綠地。</p>
+              <dl class="fact-list">
+                <div><dt>建議停留</dt><dd>40-70 分鐘</dd></div>
+                <div><dt>接法</dt><dd>C 版下午備案</dd></div>
+                <div><dt>風險</dt><dd>仍要看天氣</dd></div>
+              </dl>
+              <a href="https://tainan-barclaypark.squarespace.com/" target="_blank" rel="noreferrer">參考</a>
+            </article>
+
+            <article class="place-card">
+              <span class="place-type">遠距離支線</span>
+              <h3>安平樹屋 / 安平古堡 / 老街</h3>
+              <p>台南代表性很高，但從市區主線拉過去會增加交通和曝曬。除非大家想把下午改成安平半日，否則先當備案。</p>
+              <dl class="fact-list">
+                <div><dt>建議停留</dt><dd>2-3 小時</dd></div>
+                <div><dt>接法</dt><dd>需要計程車或車</dd></div>
+                <div><dt>風險</dt><dd>交通與日曬</dd></div>
+              </dl>
+              <a href="https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E5%B9%B3%E6%A8%B9%E5%B1%8B%20%E5%AE%89%E5%B9%B3%E5%8F%A4%E5%A0%A1" target="_blank" rel="noreferrer">地圖</a>
+            </article>
+
+            <article class="place-card">
+              <span class="place-type">夕陽支線</span>
+              <h3>漁光島</h3>
+              <p>適合看夕陽與海邊散步，但會把晚餐動線往安平拉。想去就把晚餐也改安平或海線方向。</p>
+              <dl class="fact-list">
+                <div><dt>建議停留</dt><dd>60-90 分鐘</dd></div>
+                <div><dt>接法</dt><dd>傍晚限定</dd></div>
+                <div><dt>風險</dt><dd>下雨、風大、回程塞</dd></div>
+              </dl>
+              <a href="https://www.google.com/maps/search/?api=1&query=%E6%BC%81%E5%85%89%E5%B3%B6" target="_blank" rel="noreferrer">地圖</a>
+            </article>
+
+            <article class="place-card">
+              <span class="place-type">半日生態</span>
+              <h3>四草綠色隧道</h3>
+              <p>坐船看紅樹林很有記憶點，但排隊、船班、交通都要抓。比較適合 B 版海線或另一天半日遊。</p>
+              <dl class="fact-list">
+                <div><dt>建議停留</dt><dd>2-3 小時含交通</dd></div>
+                <div><dt>接法</dt><dd>B 版或另一天</dd></div>
+                <div><dt>風險</dt><dd>船班、天氣、排隊</dd></div>
+              </dl>
+              <a href="https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E8%8D%89%E7%B6%A0%E8%89%B2%E9%9A%A7%E9%81%93" target="_blank" rel="noreferrer">地圖</a>
             </article>
           </div>
         </div>
@@ -333,8 +484,11 @@
       <section id="spots" class="band alt">
         <div class="wrap">
           <div class="section-head">
-            <p class="section-kicker">景點選項</p>
-            <h2>景點候選</h2>
+            <div>
+              <p class="section-kicker">景點選項</p>
+              <h2>景點候選</h2>
+            </div>
+            <p class="section-note">這裡保留非純戶外、室內或主線外的景點池。</p>
           </div>
           <div class="pool-grid">
             <article class="place-card highlight">
@@ -342,7 +496,7 @@
               <h3>延平郡王祠</h3>
               <p>市區低負擔景點，可看御守，也能和孔廟商圈、府中街串成下午動線。</p>
               <p class="meta">台南旅遊網列 08:30-17:30、免門票。</p>
-              <a href="https://www.twtainan.net/zh-tw/Attractions/Detail/792/" target="_blank" rel="noreferrer">參考</a>
+              <a href="https://www.twtainan.net/zh-tw/attractions/detail/792/" target="_blank" rel="noreferrer">參考</a>
             </article>
 
             <article class="place-card highlight">
@@ -377,17 +531,17 @@
             </article>
 
             <article class="place-card">
-              <span class="place-type">海線延伸</span>
-              <h3>井仔腳瓦盤鹽田</h3>
-              <p>若 B 版想多一個景點，可接鹽田夕陽，但時間要抓鬆。</p>
-              <p class="meta">適合：天氣好、有車、大家願意曬。</p>
+              <span class="place-type">室內緩衝</span>
+              <h3>林百貨 / 台南市美術館</h3>
+              <p>戶外熱到不舒服時，這兩個比硬逛更好。也能和孔廟、府中街、國華街串起來。</p>
+              <p class="meta">適合：A 版下午避暑備案。</p>
             </article>
 
             <article class="place-card">
               <span class="place-type">海線延伸</span>
-              <h3>青鯤鯓扇形鹽田</h3>
-              <p>海線拍照備案，和七股同方向，但不要和太多點硬塞。</p>
-              <p class="meta">適合：B 版想把海線感拉滿。</p>
+              <h3>井仔腳瓦盤鹽田</h3>
+              <p>若 B 版想多一個景點，可接鹽田夕陽，但時間要抓鬆。</p>
+              <p class="meta">適合：天氣好、自駕、大家願意曬。</p>
             </article>
 
             <article class="place-card">
@@ -403,15 +557,19 @@
       <section id="checklist" class="band">
         <div class="wrap">
           <div class="section-head">
-            <p class="section-kicker">訂位前確認</p>
-            <h2>出發前確認</h2>
+            <div>
+              <p class="section-kicker">訂位前確認</p>
+              <h2>出發前確認</h2>
+            </div>
           </div>
           <div class="check-grid">
             <div>人數和每個人的抵達時間</div>
-            <div>早餐是否各自處理，集合時間要不要提早</div>
-            <div>有沒有車，或是否接受叫車/包車</div>
+            <div>吃完早餐後的出發與集合時間</div>
+            <div>自駕車輛、停車位置與乘車人數</div>
             <div>午餐要早午餐、牛肉湯、鱔魚意麵，還是國華街小吃</div>
             <div>晚餐海鮮要生魚片、魚湯、熱炒，還是避開蝦蟹類</div>
+            <div>戶外主線是否採用：郡王祠、孔廟、府中街、大南門</div>
+            <div>太熱或下雨時，是否接受 LEGO、林百貨、美術館備案</div>
             <div>宵夜要牛肉湯、夜市、打茶趣，還是直接回程</div>
             <div>餐廳訂位與連假營業時間</div>
           </div>
@@ -421,7 +579,7 @@
 
     <footer class="footer">
       <div class="wrap footer-grid">
-        <p>2026-06-20 台南一日遊行程參考。</p>
+        <p>2026-06-20 台南一日遊行程參考。最後更新：2026-06-13。</p>
         <a href="docs/sources.md">資料來源</a>
       </div>
     </footer>

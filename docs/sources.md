@@ -1,11 +1,19 @@
 # Sources
 
-本專案以官方景點資訊優先，餐廳資訊搭配美食平台、景區資料與 Google Maps 短連結解析。餐廳資訊屬高變動資料，出發前請重新確認。
+本專案以官方景點資訊優先，餐廳資訊搭配美食平台、景區資料與地圖參考。餐廳資訊屬高變動資料，出發前請重新確認。
 
 - 行政院人事行政總處辦公日曆查詢頁：[DGPA 115 年辦公日曆表](https://www.dgpa.gov.tw/information?pid=12685&uid=30)
 - 端午連假整理參考：[2026 行事曆 - 端午 6/19-6/21](https://holiday.twtool.tw/)
 - 七股鹽山官方網站：[https://cigu.tybio.com.tw/](https://cigu.tybio.com.tw/)
 - 延平郡王祠官方旅遊頁：[台南旅遊網：延平郡王祠](https://www.twtainan.net/zh-tw/Attractions/Detail/792/)
+- 郡王祠附近室內備案：[創意積木夢工場｜LEGO 樂高](https://maps.app.goo.gl/Eea9MqTG9Wi6UY3W6)
+- 孔廟與孔廟文化園區參考：[臺南孔子廟](https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8D%97%E5%AD%94%E5%AD%90%E5%BB%9F)、[Tainan Confucian Temple](https://en.wikipedia.org/wiki/Tainan_Confucian_Temple)
+- 吳園與市區歷史散步參考：[Tainan Wu Garden](https://en.wikipedia.org/wiki/Tainan_Wu_Garden)、[原臺南公會堂](https://zh.wikipedia.org/wiki/%E5%8E%9F%E8%87%BA%E5%8D%97%E5%85%AC%E6%9C%83%E5%A0%82)
+- 河樂廣場參考：[臺南中國城：河樂廣場](https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8D%97%E4%B8%AD%E5%9C%8B%E5%9F%8E)
+- 藍晒圖文創園區參考：[藍晒圖文創園區](https://zh.wikipedia.org/wiki/%E8%97%8D%E6%99%92%E5%9C%96%E6%96%87%E5%89%B5%E5%9C%92%E5%8D%80)
+- 巴克禮紀念公園參考：[巴克禮公園官方網站](https://tainan-barclaypark.squarespace.com/)、[巴克禮紀念公園](https://zh.wikipedia.org/wiki/%E5%B7%B4%E5%85%8B%E7%A6%AE%E7%B4%80%E5%BF%B5%E5%85%AC%E5%9C%92)
+- 安平樹屋參考：[Anping Tree House](https://en.wikipedia.org/wiki/Anping_Tree_House)
+- 四草與海線戶外參考：[雲嘉南濱海國家風景區](https://zh.wikipedia.org/wiki/%E9%9B%B2%E5%98%89%E5%8D%97%E6%BF%B1%E6%B5%B7%E5%9C%8B%E5%AE%B6%E9%A2%A8%E6%99%AF%E5%8D%80)、[四草綠色隧道](https://zh.wikipedia.org/wiki/%E5%9B%9B%E8%8D%89%E7%B6%A0%E8%89%B2%E9%9A%A7%E9%81%93)
 - 打茶趣參考：[Fooday 店家頁](https://fooday.app/zh-TW/spots/YVB6jTH79GrTVi6xQ4Z23J/menu)、[愛食記文章](https://ifoodie.tw/post/66cd778feb74c46aa8a7ace2)
 - 法國鬍子參考：[愛食記店家頁](https://ifoodie.tw/restaurant/5cf8e16c226139711a1ff47c-La-Belle-Maison-Cafe)
 - 國華街小吃參考：[Round Taiwan Round 國華街美食整理](https://www.rtaiwanr.com/zh-TW/blog/guohua-street-food)、[食尚玩家國華街整理](https://supertaste.tvbs.com.tw/amp/pack/340915)
